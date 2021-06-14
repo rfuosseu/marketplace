@@ -1,0 +1,24 @@
+{
+  "name": "marketplace",
+  "version": "1.0.0",
+  "description": "Monitoring market place worldwide",
+  "main": "src/app.js",
+  "scripts": {
+    "start:dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "Market",
+    "Place"
+  ],
+  "author": "Rodrigue FUOSSEU",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "twig": "^1.15.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
